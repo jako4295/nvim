@@ -14,11 +14,10 @@ vim.keymap.set("n", "<c-h>", ":wincmd h<CR>")
 vim.keymap.set("n", "<c-l>", ":wincmd l<CR>")
 
 -- Navigate buffers
-vim.keymap.set("n", "<leader>bn", "<cmd>bnext<CR>")
-vim.keymap.set("n", "<leader>bp", "<cmd>bprevious<CR>")
+vim.keymap.set("n", "<leader>.", "<cmd>bnext<CR>")
+vim.keymap.set("n", "<leader>,", "<cmd>bprevious<CR>")
 vim.keymap.set("n", "<leader>bd", "<cmd>bdelete<CR>")
 
 vim.keymap.set("n", "<leader>h", ":nohlsearch<CR>")
 vim.wo.number = true
 vim.wo.relativenumber = true
-
