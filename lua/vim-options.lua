@@ -18,6 +18,9 @@ vim.keymap.set("n", "<leader>.", "<cmd>bnext<CR>")
 vim.keymap.set("n", "<leader>,", "<cmd>bprevious<CR>")
 vim.keymap.set("n", "<leader>bd", "<cmd>bdelete<CR>")
 
-vim.keymap.set("n", "<leader>h", ":nohlsearch<CR>")
+-- Split screen
+vim.keymap.set("n", "<leader>vs", "<cmd>vsplit<CR>")
+
+-- vim.keymap.set("n", "<leader>h", ":nohlsearch<CR>")
 vim.wo.number = true
 vim.wo.relativenumber = true

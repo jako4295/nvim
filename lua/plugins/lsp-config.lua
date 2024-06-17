@@ -21,6 +21,7 @@ return {
             local on_attach = require("cmp_nvim_lsp").on_attach
 
             local lspconfig = require("lspconfig")
+
             lspconfig.marksman.setup({
                 capabilities = capabilities,
             })
